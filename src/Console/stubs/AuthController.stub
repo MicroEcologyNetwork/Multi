@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use Micro\Multi\Controllers\AuthController as BaseAuthController;
+
+class AuthController extends BaseAuthController
+{
+
+}

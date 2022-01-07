@@ -1,0 +1,25 @@
+{
+    "name": "micro/multi",
+    "autoload": {
+        "psr-4": {
+            "Micro\\Multi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jesse Zheng",
+            "email": "service@bzmicro.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Micro\\Multi\\MultiServiceProvider"
+            ],
+            "aliases": {
+                "Multi": "Micro\\Multi\\Facades\\Multi"
+            }
+        }
+    }
+}

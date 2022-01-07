@@ -1,0 +1,16 @@
+<?php
+
+use Illuminate\Routing\Router;
+
+Multi::routes();
+
+Route::group([
+    'prefix'        => config('multi.route.prefix'),
+    'namespace'     => config('multi.route.namespace'),
+    'middleware'    => config('multi.route.middleware'),
+    'as'            => config('multi.route.prefix') . '.',
+], function (Router $router) {
+
+    $router->get('/', 'HomeController@index')->name('home');
+
+});

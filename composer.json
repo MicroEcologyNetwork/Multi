@@ -1,5 +1,5 @@
 {
-    "name": "micro/multi",
+    "name": "MicroEcology/multi",
     "autoload": {
         "psr-4": {
             "MicroEcology\\Multi\\": "src/"

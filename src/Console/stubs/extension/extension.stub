@@ -2,7 +2,7 @@
 
 namespace :namespace;
 
-use Micro\Multi\Extension;
+use MicroEcology\Multi\Extension;
 
 class :class_name extends Extension
 {

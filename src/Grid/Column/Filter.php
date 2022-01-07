@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Column;
+namespace MicroEcology\Multi\Grid\Column;
 
-use Micro\Multi\Grid\Column;
-use Micro\Multi\Grid\Model;
+use MicroEcology\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Model;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 

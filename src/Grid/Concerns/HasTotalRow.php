@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
 use Closure;
-use Micro\Multi\Grid\Tools\TotalRow;
+use MicroEcology\Multi\Grid\Tools\TotalRow;
 
 trait HasTotalRow
 {

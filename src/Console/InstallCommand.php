@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Console;
+namespace MicroEcology\Multi\Console;
 
 use Illuminate\Console\Command;
 
@@ -51,7 +51,7 @@ class InstallCommand extends Command
         $userModel = config('multi.database.users_model');
 
         if ($userModel::count() == 0) {
-            $this->call('db:seed', ['--class' => \Micro\Multi\Auth\Database\MultiTablesSeeder::class]);
+            $this->call('db:seed', ['--class' => \MicroEcology\Multi\Auth\Database\MultiTablesSeeder::class]);
         }
     }
 

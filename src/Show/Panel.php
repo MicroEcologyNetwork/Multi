@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Show;
+namespace MicroEcology\Multi\Show;
 
-use Micro\Multi\Show;
+use MicroEcology\Multi\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;
 

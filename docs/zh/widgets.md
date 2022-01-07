@@ -2,10 +2,10 @@
 
 ## Box组件
 
-`Micro\Multi\Widgets\Box`用来生成box组件：
+`MicroEcology\Multi\Widgets\Box`用来生成box组件：
 
 ```php
-use Micro\Multi\Widgets\Box;
+use MicroEcology\Multi\Widgets\Box;
 
 $box = new Box('Box标题', 'Box内容');
 
@@ -37,9 +37,9 @@ echo $box;
 
 ## Collapse组件
 
-`Micro\Multi\Widgets\Collapse`类用来生成折叠插件：
+`MicroEcology\Multi\Widgets\Collapse`类用来生成折叠插件：
 ```php
-use Micro\Multi\Widgets\Collapse;
+use MicroEcology\Multi\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## 表单
 
-`Micro\Multi\Widgets\Form`类用来快速构建表单：
+`MicroEcology\Multi\Widgets\Form`类用来快速构建表单：
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox组件
 
-`Micro\Multi\Widgets\InfoBox`类用来生成信息展示块：
+`MicroEcology\Multi\Widgets\InfoBox`类用来生成信息展示块：
 
 ```php
-use Micro\Multi\Widgets\InfoBox;
+use MicroEcology\Multi\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/multi/users', '1024');
 
@@ -101,10 +101,10 @@ echo $infoBox->render();
 
 ## Tab组件
 
-`Micro\Multi\Widgets\Tab`类用来生成选项卡组件：
+`MicroEcology\Multi\Widgets\Tab`类用来生成选项卡组件：
 
 ```php
-use Micro\Multi\Widgets\Tab;
+use MicroEcology\Multi\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Micro\Multi\Widgets\Table`类用来生成表格：
+`MicroEcology\Multi\Widgets\Table`类用来生成表格：
 
 ```php
-use Micro\Multi\Widgets\Table;
+use MicroEcology\Multi\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

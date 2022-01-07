@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 
 class Secret extends AbstractDisplayer
 {

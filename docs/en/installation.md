@@ -11,7 +11,7 @@ composer require encore/laravel-multi "1.5.*"
 
 Publish assets and config with command：
 ```
-php artisan vendor:publish --provider="Micro\Multi\MultiServiceProvider"
+php artisan vendor:publish --provider="MicroEcology\Multi\MultiServiceProvider"
 ```
 
 After runnung previous command you can find config file in `config/multi.php`, in this file you can change default install directory (```/app/Multi```), db connection or table names.

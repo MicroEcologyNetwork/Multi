@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
-use Micro\Multi\Grid\Filter\AbstractFilter;
-use Micro\Multi\Grid\Filter\Layout\Layout;
-use Micro\Multi\Grid\Filter\Scope;
+use MicroEcology\Multi\Grid\Filter\AbstractFilter;
+use MicroEcology\Multi\Grid\Filter\Layout\Layout;
+use MicroEcology\Multi\Grid\Filter\Scope;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

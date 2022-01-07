@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Controllers;
+namespace MicroEcology\Multi\Controllers;
 
-use Micro\Multi\Layout\Content;
+use MicroEcology\Multi\Layout\Content;
 use Illuminate\Routing\Controller;
 
 class MultiController extends Controller

@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Actions\Interactor;
+namespace MicroEcology\Multi\Actions\Interactor;
 
-use Micro\Multi\Actions\Action;
+use MicroEcology\Multi\Actions\Action;
 
 abstract class Interactor
 {

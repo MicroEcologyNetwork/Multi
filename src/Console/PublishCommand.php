@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Console;
+namespace MicroEcology\Multi\Console;
 
 use Illuminate\Console\Command;
 
@@ -28,7 +28,7 @@ class PublishCommand extends Command
     public function handle()
     {
         $force = $this->option('force');
-        $options = ['--provider' => 'Micro\Multi\MultiServiceProvider'];
+        $options = ['--provider' => 'MicroEcology\Multi\MultiServiceProvider'];
         if ($force == true) {
             $options['--force'] = true;
         }

@@ -1,6 +1,6 @@
 # Model-grid
 
-Class `Micro\Multi\Grid` is used to generate tables based on the data model,for example,we have a table `movies` in database:
+Class `MicroEcology\Multi\Grid` is used to generate tables based on the data model,for example,we have a table `movies` in database:
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ And the model of this table is `App\Models\Movie`,The following code can generat
 ```php
 
 use App\Models\Movie;
-use Micro\Multi\Grid;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Facades\Multi;
 
 $grid = Multi::grid(Movie::class, function(Grid $grid){
 

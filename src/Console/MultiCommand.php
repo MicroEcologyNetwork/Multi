@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Console;
+namespace MicroEcology\Multi\Console;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;

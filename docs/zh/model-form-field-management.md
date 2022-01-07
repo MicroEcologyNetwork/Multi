@@ -10,7 +10,7 @@ form表单内置的`map`和`editor`组件通过cdn的方式引用了前端文件
 
 <?php
 
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 
 Form::forget('map');
 Form::forget('editor');
@@ -41,7 +41,7 @@ Form::forget(['map', 'editor']);
 
 namespace App\Multi\Extensions;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 
 class WangEditor extends Field
 {
@@ -104,7 +104,7 @@ EOT;
 <?php
 
 use App\Multi\Extensions\WangEditor;
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 
 Form::extend('editor', WangEditor::class);
 
@@ -128,7 +128,7 @@ $form->editor('body');
 
 namespace App\Multi\Extensions\Form;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 
 class CKEditor extends Field
 {
@@ -170,7 +170,7 @@ class CKEditor extends Field
 然后在`app/Multi/bootstrap.php`中引入扩展：
 ```php
 use App\Multi\Extensions\Form\CKEditor;
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 
 Form::extend('ckeditor', CKEditor::class);
 ```
@@ -194,7 +194,7 @@ $form->ckeditor('content');
 
 namespace App\Multi\Extensions;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 
 class PHPEditor extends Field
 {
@@ -263,7 +263,7 @@ EOT;
 <?php
 
 use App\Multi\Extensions\PHPEditor;
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 
 Form::extend('php', PHPEditor::class);
 

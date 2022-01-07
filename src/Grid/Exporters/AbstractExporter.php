@@ -1,13 +1,13 @@
 <?php
 
-namespace Micro\Multi\Grid\Exporters;
+namespace MicroEcology\Multi\Grid\Exporters;
 
-use Micro\Multi\Grid;
+use MicroEcology\Multi\Grid;
 
 abstract class AbstractExporter implements ExporterInterface
 {
     /**
-     * @var \Micro\Multi\Grid
+     * @var \MicroEcology\Multi\Grid
      */
     protected $grid;
 

@@ -1,12 +1,12 @@
 <?php
 
-namespace Micro\Multi;
+namespace MicroEcology\Multi;
 
-use Micro\Multi\Show\Divider;
-use Micro\Multi\Show\Field;
-use Micro\Multi\Show\Panel;
-use Micro\Multi\Show\Relation;
-use Micro\Multi\Traits\ShouldSnakeAttributes;
+use MicroEcology\Multi\Show\Divider;
+use MicroEcology\Multi\Show\Field;
+use MicroEcology\Multi\Show\Panel;
+use MicroEcology\Multi\Show\Relation;
+use MicroEcology\Multi\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

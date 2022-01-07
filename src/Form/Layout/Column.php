@@ -3,9 +3,9 @@
  * Copyright (c) 2019. Mallto.Co.Ltd.<mall-to.com> All rights reserved.
  */
 
-namespace Micro\Multi\Form\Layout;
+namespace MicroEcology\Multi\Form\Layout;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 use Illuminate\Support\Collection;
 
 class Column

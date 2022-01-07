@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
-use Micro\Multi\Form\EmbeddedForm;
-use Micro\Multi\Form\Field;
-use Micro\Multi\Widgets\Form as WidgetForm;
+use MicroEcology\Multi\Form\EmbeddedForm;
+use MicroEcology\Multi\Form\Field;
+use MicroEcology\Multi\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 

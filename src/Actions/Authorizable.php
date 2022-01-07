@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Actions;
+namespace MicroEcology\Multi\Actions;
 
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 

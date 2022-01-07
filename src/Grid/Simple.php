@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
-use Micro\Multi\Grid;
+use MicroEcology\Multi\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

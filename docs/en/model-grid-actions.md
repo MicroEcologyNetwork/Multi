@@ -41,7 +41,7 @@ First define the action class:
 
 namespace App\Multi\Extensions;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 
 class CheckRow
 {

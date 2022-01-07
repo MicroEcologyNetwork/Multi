@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Widgets;
+namespace MicroEcology\Multi\Widgets;
 
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Contracts\Support\Renderable;
 
 class Tab extends Widget implements Renderable

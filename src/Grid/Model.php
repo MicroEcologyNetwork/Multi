@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
-use Micro\Multi\Grid;
-use Micro\Multi\Middleware\Pjax;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Middleware\Pjax;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;

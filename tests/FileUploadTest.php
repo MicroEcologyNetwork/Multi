@@ -1,6 +1,6 @@
 <?php
 
-use Micro\Multi\Auth\Database\Multiistrator;
+use MicroEcology\Multi\Auth\Database\Multiistrator;
 use Illuminate\Support\Facades\File;
 use Tests\Models\File as FileModel;
 

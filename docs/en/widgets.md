@@ -2,10 +2,10 @@
 
 ## Box
 
-`Micro\Multi\Widgets\Box` used to generate box components:
+`MicroEcology\Multi\Widgets\Box` used to generate box components:
 
 ```php
-use Micro\Multi\Widgets\Box;
+use MicroEcology\Multi\Widgets\Box;
 
 $box = new Box('Box Title', 'Box content');
 
@@ -37,9 +37,9 @@ The `$content` parameter is the content element of the Box, which can be either 
 
 ## Collapse
 
-`Micro\Multi\Widgets\Collapse` class used to generate folding components:
+`MicroEcology\Multi\Widgets\Collapse` class used to generate folding components:
 ```php
-use Micro\Multi\Widgets\Collapse;
+use MicroEcology\Multi\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## Form
 
-`Micro\Multi\Widgets\Form` class is used to quickly build a form:
+`MicroEcology\Multi\Widgets\Form` class is used to quickly build a form:
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox
 
-`Micro\Multi\Widgets\InfoBox` class is used to generate the information presentation block:
+`MicroEcology\Multi\Widgets\InfoBox` class is used to generate the information presentation block:
 
 ```php
-use Micro\Multi\Widgets\InfoBox;
+use MicroEcology\Multi\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/multi/users', '1024');
 
@@ -101,10 +101,10 @@ Refer to the section on the `InfoBox` in the `index()` method of the home page l
 
 ## Tab component
 
-`Micro\Multi\Widgets\Tab` class is used to generate the tab components:
+`MicroEcology\Multi\Widgets\Tab` class is used to generate the tab components:
 
 ```php
-use Micro\Multi\Widgets\Tab;
+use MicroEcology\Multi\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Micro\Multi\Widgets\Table` class is used to generate tables:
+`MicroEcology\Multi\Widgets\Table` class is used to generate tables:
 
 ```php
-use Micro\Multi\Widgets\Table;
+use MicroEcology\Multi\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

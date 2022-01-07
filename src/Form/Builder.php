@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Form;
+namespace MicroEcology\Multi\Form;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Form;
-use Micro\Multi\Form\Field\Hidden;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Form\Field\Hidden;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;

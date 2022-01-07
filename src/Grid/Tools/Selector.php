@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Tools;
+namespace MicroEcology\Multi\Grid\Tools;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

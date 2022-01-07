@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 
 class Textarea extends AbstractDisplayer
 {

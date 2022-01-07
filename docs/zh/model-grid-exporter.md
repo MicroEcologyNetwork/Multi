@@ -7,7 +7,7 @@ laravel-multi的数据表格默认支持导出csv文件，
 
 namespace App\Multi\Extensions;
 
-use Micro\Multi\Grid\Exporters\AbstractExporter;
+use MicroEcology\Multi\Grid\Exporters\AbstractExporter;
 
 class CustomExporter extends AbstractExporter
 {

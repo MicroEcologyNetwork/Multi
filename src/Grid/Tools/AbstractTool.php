@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Tools;
+namespace MicroEcology\Multi\Grid\Tools;
 
-use Micro\Multi\Grid;
+use MicroEcology\Multi\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 abstract class AbstractTool implements Renderable

@@ -1,12 +1,12 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
-use Micro\Multi\Actions\RowAction;
-use Micro\Multi\Multi;
-use Micro\Multi\Grid\Actions\Delete;
-use Micro\Multi\Grid\Actions\Edit;
-use Micro\Multi\Grid\Actions\Show;
+use MicroEcology\Multi\Actions\RowAction;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid\Actions\Delete;
+use MicroEcology\Multi\Grid\Actions\Edit;
+use MicroEcology\Multi\Grid\Actions\Show;
 
 class DropdownActions extends Actions
 {

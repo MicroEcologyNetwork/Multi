@@ -1,6 +1,6 @@
 # 基于数据模型的表格
 
-`Micro\Multi\Grid`类用于生成基于数据模型的表格，先来个例子，数据库中有`movies`表
+`MicroEcology\Multi\Grid`类用于生成基于数据模型的表格，先来个例子，数据库中有`movies`表
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ CREATE TABLE `movies` (
 ```php
 
 use App\Models\Movie;
-use Micro\Multi\Grid;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Facades\Multi;
 
 $grid = Multi::grid(Movie::class, function(Grid $grid){
 

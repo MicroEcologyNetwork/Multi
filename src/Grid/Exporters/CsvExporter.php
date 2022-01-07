@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Exporters;
+namespace MicroEcology\Multi\Grid\Exporters;
 
-use Micro\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Column;
 
 class CsvExporter extends AbstractExporter
 {

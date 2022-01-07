@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Traits;
+namespace MicroEcology\Multi\Traits;
 
-use Micro\Multi\Form;
-use Micro\Multi\Grid;
-use Micro\Multi\Tree;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Tree;
 
 /**
  * @deprecated

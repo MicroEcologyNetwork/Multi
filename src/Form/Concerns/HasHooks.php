@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Form\Concerns;
+namespace MicroEcology\Multi\Form\Concerns;
 
 use Closure;
 use Illuminate\Support\Arr;

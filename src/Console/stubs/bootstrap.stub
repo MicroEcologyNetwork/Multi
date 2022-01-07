@@ -7,10 +7,10 @@
  * Bootstraper for Multi.
  *
  * Here you can remove builtin form field:
- * Micro\Multi\Form::forget(['map', 'editor']);
+ * MicroEcology\Multi\Form::forget(['map', 'editor']);
  *
  * Or extend custom form field:
- * Micro\Multi\Form::extend('php', PHPEditor::class);
+ * MicroEcology\Multi\Form::extend('php', PHPEditor::class);
  *
  * Or require js and css assets:
  * Multi::css('/packages/prettydocs/css/styles.css');
@@ -18,4 +18,4 @@
  *
  */
 
-Micro\Multi\Form::forget(['map', 'editor']);
+MicroEcology\Multi\Form::forget(['map', 'editor']);

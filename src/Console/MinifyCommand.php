@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Console;
+namespace MicroEcology\Multi\Console;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Facades\Multi as MultiFacade;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Facades\Multi as MultiFacade;
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
 use MatthiasMullie\Minify;

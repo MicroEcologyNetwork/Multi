@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Auth\Database;
+namespace MicroEcology\Multi\Auth\Database;
 
-use Micro\Multi\Traits\DefaultDatetimeFormat;
+use MicroEcology\Multi\Traits\DefaultDatetimeFormat;
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Database\Eloquent\Model;

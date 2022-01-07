@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Form;
+namespace MicroEcology\Multi\Form;
 
-use Micro\Multi\Form;
-use Micro\Multi\Widgets\Form as WidgetForm;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

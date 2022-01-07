@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Middleware;
+namespace MicroEcology\Multi\Middleware;
 
-use Micro\Multi\Auth\Permission as Checker;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Auth\Permission as Checker;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

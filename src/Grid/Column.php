@@ -1,11 +1,11 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
 use Closure;
-use Micro\Multi\Actions\RowAction;
-use Micro\Multi\Grid;
-use Micro\Multi\Grid\Displayers\AbstractDisplayer;
+use MicroEcology\Multi\Actions\RowAction;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Grid\Displayers\AbstractDisplayer;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Support\Arr;
@@ -474,7 +474,7 @@ class Column
     public function action($action)
     {
         if (!is_subclass_of($action, RowAction::class)) {
-            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [Micro\Multi\Actions\GridAction]");
+            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [MicroEcology\Multi\Actions\GridAction]");
         }
 
         $grid = $this->grid;

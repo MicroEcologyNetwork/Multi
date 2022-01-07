@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Tools;
+namespace MicroEcology\Multi\Grid\Tools;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 use Illuminate\Support\Collection;
 
 class BatchActions extends AbstractTool

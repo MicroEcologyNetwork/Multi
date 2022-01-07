@@ -2,7 +2,7 @@
 
 namespace Tests\Models;
 
-use Micro\Multi\Traits\ModelTree;
+use MicroEcology\Multi\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Tree extends Model

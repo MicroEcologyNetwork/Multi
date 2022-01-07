@@ -1,12 +1,12 @@
 <?php
 
-namespace Micro\Multi\Widgets;
+namespace MicroEcology\Multi\Widgets;
 
 use Closure;
-use Micro\Multi\Facades\Multi;
-use Micro\Multi\Form as BaseForm;
-use Micro\Multi\Form\Field;
-use Micro\Multi\Layout\Content;
+use MicroEcology\Multi\Facades\Multi;
+use MicroEcology\Multi\Form as BaseForm;
+use MicroEcology\Multi\Form\Field;
+use MicroEcology\Multi\Layout\Content;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

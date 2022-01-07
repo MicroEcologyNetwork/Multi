@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Exception;
+namespace MicroEcology\Multi\Exception;
 
 use Illuminate\Support\MessageBag;
 use Illuminate\Support\ViewErrorBag;

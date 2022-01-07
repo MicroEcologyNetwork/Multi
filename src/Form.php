@@ -1,18 +1,18 @@
 <?php
 
-namespace Micro\Multi;
+namespace MicroEcology\Multi;
 
 use Closure;
-use Micro\Multi\Exception\Handler;
-use Micro\Multi\Form\Builder;
-use Micro\Multi\Form\Concerns\HandleCascadeFields;
-use Micro\Multi\Form\Concerns\HasFields;
-use Micro\Multi\Form\Concerns\HasHooks;
-use Micro\Multi\Form\Field;
-use Micro\Multi\Form\Layout\Layout;
-use Micro\Multi\Form\Row;
-use Micro\Multi\Form\Tab;
-use Micro\Multi\Traits\ShouldSnakeAttributes;
+use MicroEcology\Multi\Exception\Handler;
+use MicroEcology\Multi\Form\Builder;
+use MicroEcology\Multi\Form\Concerns\HandleCascadeFields;
+use MicroEcology\Multi\Form\Concerns\HasFields;
+use MicroEcology\Multi\Form\Concerns\HasHooks;
+use MicroEcology\Multi\Form\Field;
+use MicroEcology\Multi\Form\Layout\Layout;
+use MicroEcology\Multi\Form\Row;
+use MicroEcology\Multi\Form\Tab;
+use MicroEcology\Multi\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -1421,7 +1421,7 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Micro\Multi\Form\Footer
+     * @return \MicroEcology\Multi\Form\Footer
      */
     public function footer(Closure $callback = null)
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Exporters;
+namespace MicroEcology\Multi\Grid\Exporters;
 
 interface ExporterInterface
 {

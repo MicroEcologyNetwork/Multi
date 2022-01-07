@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
 use Closure;
-use Micro\Multi\Grid\Tools;
+use MicroEcology\Multi\Grid\Tools;
 
 trait HasTools
 {

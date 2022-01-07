@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter\Presenter;
+namespace MicroEcology\Multi\Grid\Filter\Presenter;
 
-use Micro\Multi\Grid\Filter\AbstractFilter;
+use MicroEcology\Multi\Grid\Filter\AbstractFilter;
 
 abstract class Presenter
 {

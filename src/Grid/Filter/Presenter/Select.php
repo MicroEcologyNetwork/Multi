@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter\Presenter;
+namespace MicroEcology\Multi\Grid\Filter\Presenter;
 
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;

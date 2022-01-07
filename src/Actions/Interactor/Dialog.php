@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Actions\Interactor;
+namespace MicroEcology\Multi\Actions\Interactor;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 
 class Dialog extends Interactor
 {

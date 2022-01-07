@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Show;
+namespace MicroEcology\Multi\Show;
 
 class Divider extends Field
 {

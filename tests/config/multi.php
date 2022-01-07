@@ -58,7 +58,7 @@ return [
         'providers' => [
             'multi' => [
                 'driver' => 'eloquent',
-                'model'  => Micro\Multi\Auth\Database\Multiistrator::class,
+                'model'  => MicroEcology\Multi\Auth\Database\Multiistrator::class,
             ],
         ],
     ],
@@ -86,19 +86,19 @@ return [
 
         // User tables and model.
         'users_table' => 'multi_users',
-        'users_model' => Micro\Multi\Auth\Database\Multiistrator::class,
+        'users_model' => MicroEcology\Multi\Auth\Database\Multiistrator::class,
 
         // Role table and model.
         'roles_table' => 'multi_roles',
-        'roles_model' => Micro\Multi\Auth\Database\Role::class,
+        'roles_model' => MicroEcology\Multi\Auth\Database\Role::class,
 
         // Permission table and model.
         'permissions_table' => 'multi_permissions',
-        'permissions_model' => Micro\Multi\Auth\Database\Permission::class,
+        'permissions_model' => MicroEcology\Multi\Auth\Database\Permission::class,
 
         // Menu table and model.
         'menu_table' => 'multi_menu',
-        'menu_model' => Micro\Multi\Auth\Database\Menu::class,
+        'menu_model' => MicroEcology\Multi\Auth\Database\Menu::class,
 
         // Pivot table for table above.
         'operation_log_table'    => 'multi_operation_log',

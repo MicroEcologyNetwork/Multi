@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany as Relation;
 use Illuminate\Support\Arr;

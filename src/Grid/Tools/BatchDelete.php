@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Tools;
+namespace MicroEcology\Multi\Grid\Tools;
 
 class BatchDelete extends BatchAction
 {

@@ -1,7 +1,7 @@
 <?php
 
-use Micro\Multi\Auth\Database\Multiistrator;
-use Micro\Multi\Auth\Database\Menu;
+use MicroEcology\Multi\Auth\Database\Multiistrator;
+use MicroEcology\Multi\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

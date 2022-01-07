@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Show;
+namespace MicroEcology\Multi\Show;
 
-use Micro\Multi\Show;
-use Micro\Multi\Widgets\Carousel;
+use MicroEcology\Multi\Show;
+use MicroEcology\Multi\Widgets\Carousel;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

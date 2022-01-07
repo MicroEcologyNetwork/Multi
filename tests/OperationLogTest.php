@@ -1,7 +1,7 @@
 <?php
 
-use Micro\Multi\Auth\Database\Multiistrator;
-use Micro\Multi\Auth\Database\OperationLog;
+use MicroEcology\Multi\Auth\Database\Multiistrator;
+use MicroEcology\Multi\Auth\Database\OperationLog;
 
 class OperationLogTest extends TestCase
 {

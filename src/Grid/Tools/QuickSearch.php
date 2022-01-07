@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Tools;
+namespace MicroEcology\Multi\Grid\Tools;
 
-use Micro\Multi\Grid\Concerns\HasQuickSearch;
+use MicroEcology\Multi\Grid\Concerns\HasQuickSearch;
 use Illuminate\Support\Arr;
 
 class QuickSearch extends AbstractTool

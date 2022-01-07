@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Micro\Multi\Actions\RowAction;
+use MicroEcology\Multi\Actions\RowAction;
 use Illuminate\Database\Eloquent\Model;
 
 class DummyClass extends RowAction

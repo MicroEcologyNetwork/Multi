@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
 use Closure;
-use Micro\Multi\Grid\Tools\Header;
+use MicroEcology\Multi\Grid\Tools\Header;
 
 trait HasHeader
 {

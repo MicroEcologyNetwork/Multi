@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Actions;
+namespace MicroEcology\Multi\Grid\Actions;
 
-use Micro\Multi\Actions\Response;
-use Micro\Multi\Actions\RowAction;
+use MicroEcology\Multi\Actions\Response;
+use MicroEcology\Multi\Actions\RowAction;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 

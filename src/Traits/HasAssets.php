@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Traits;
+namespace MicroEcology\Multi\Traits;
 
 trait HasAssets
 {

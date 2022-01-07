@@ -1,16 +1,16 @@
 <?php
 
-namespace Micro\Multi;
+namespace MicroEcology\Multi;
 
 use Closure;
-use Micro\Multi\Exception\Handler;
-use Micro\Multi\Grid\Column;
-use Micro\Multi\Grid\Concerns;
-use Micro\Multi\Grid\Displayers;
-use Micro\Multi\Grid\Model;
-use Micro\Multi\Grid\Row;
-use Micro\Multi\Grid\Tools;
-use Micro\Multi\Traits\ShouldSnakeAttributes;
+use MicroEcology\Multi\Exception\Handler;
+use MicroEcology\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Concerns;
+use MicroEcology\Multi\Grid\Displayers;
+use MicroEcology\Multi\Grid\Model;
+use MicroEcology\Multi\Grid\Row;
+use MicroEcology\Multi\Grid\Tools;
+use MicroEcology\Multi\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Micro\Multi\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \MicroEcology\Multi\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

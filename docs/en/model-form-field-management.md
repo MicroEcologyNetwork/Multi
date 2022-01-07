@@ -11,7 +11,7 @@ Locate the file `app/Multi/bootstrap.php`. If the file does not exist, update `l
 
 <?php
 
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 
 Form::forget('map');
 Form::forget('editor');
@@ -39,7 +39,7 @@ Create a new field class `app/Multi/Extensions/PHPEditor.php`:
 
 namespace App\Multi\Extensions;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 
 class PHPEditor extends Field
 {
@@ -108,7 +108,7 @@ Finally, find the file `app/Multi/bootstrap.php`, if the file does not exist, up
 <?php
 
 use App\Multi\Extensions\PHPEditor;
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 
 Form::extend('php', PHPEditor::class);
 
@@ -136,7 +136,7 @@ Then Write Extension class `app/Multi/Extensions/Form/CKEditor.php`:
 
 namespace App\Multi\Extensions\Form;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 
 class CKEditor extends Field
 {
@@ -176,7 +176,7 @@ Add blade file `resources/views/multi/ckeditor.blade.php` for view `multi.ckedit
 Register this extension in `app/Multi/bootstrap.php`:
 
 ```php
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 use App\Multi\Extensions\Form\CKEditor;
 
 Form::extend('ckeditor', CKEditor::class);

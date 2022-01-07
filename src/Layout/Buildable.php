@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Layout;
+namespace MicroEcology\Multi\Layout;
 
 interface Buildable
 {

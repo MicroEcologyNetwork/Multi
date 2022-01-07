@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Console;
+namespace MicroEcology\Multi\Console;
 
-use Micro\Multi\Auth\Database\Permission;
+use MicroEcology\Multi\Auth\Database\Permission;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;

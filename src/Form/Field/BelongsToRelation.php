@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Grid\Selectable;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid\Selectable;
 
 trait BelongsToRelation
 {
@@ -37,7 +37,7 @@ trait BelongsToRelation
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Micro\Multi\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of MicroEcology\Multi\Grid\Selectable"
             );
         }
 
@@ -143,7 +143,7 @@ STYLE;
     }
 
     /**
-     * @return \Micro\Multi\Grid
+     * @return \MicroEcology\Multi\Grid
      */
     protected function makeGrid()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Form;
+namespace MicroEcology\Multi\Form;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Form;
-use Micro\Multi\Widgets\Form as WidgetForm;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Widgets\Form as WidgetForm;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
@@ -92,7 +92,7 @@ class NestedForm
     protected $original = [];
 
     /**
-     * @var \Micro\Multi\Form|\Micro\Multi\Widgets\Form
+     * @var \MicroEcology\Multi\Form|\MicroEcology\Multi\Widgets\Form
      */
     protected $form;
 
@@ -290,7 +290,7 @@ class NestedForm
                 $value = $field->prepare($value);
             }
 
-            if (($field instanceof \Micro\Multi\Form\Field\Hidden) || $value != $field->original()) {
+            if (($field instanceof \MicroEcology\Multi\Form\Field\Hidden) || $value != $field->original()) {
                 if (is_array($columns)) {
                     foreach ($columns as $name => $column) {
                         Arr::set($prepared, $column, $value[$name]);

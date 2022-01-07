@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
-use Micro\Multi\Grid\Column;
-use Micro\Multi\Grid\Model;
-use Micro\Multi\Grid\Tools;
+use MicroEcology\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Model;
+use MicroEcology\Multi\Grid\Tools;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

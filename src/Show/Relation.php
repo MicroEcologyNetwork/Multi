@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Show;
+namespace MicroEcology\Multi\Show;
 
-use Micro\Multi\Grid;
-use Micro\Multi\Show;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Show;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;

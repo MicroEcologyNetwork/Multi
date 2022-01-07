@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Grid\Selectable;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid\Selectable;
 
 class BelongsTo extends AbstractDisplayer
 {
@@ -38,7 +38,7 @@ class BelongsTo extends AbstractDisplayer
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Micro\Multi\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of MicroEcology\Multi\Grid\Selectable"
             );
         }
 

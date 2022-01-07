@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Controllers;
+namespace MicroEcology\Multi\Controllers;
 
 /**
  * Trait ModelForm.

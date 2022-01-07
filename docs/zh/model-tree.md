@@ -23,7 +23,7 @@ CREATE TABLE `demo_categories` (
 
 namespace App\Models\Demo;
 
-use Micro\Multi\Traits\ModelTree;
+use MicroEcology\Multi\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -39,7 +39,7 @@ class Category extends Model
 
 namespace App\Models\Demo;
 
-use Micro\Multi\Traits\ModelTree;
+use MicroEcology\Multi\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
@@ -67,11 +67,11 @@ namespace App\Multi\Controllers\Demo;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
-use Micro\Multi\Form;
-use Micro\Multi\Facades\Multi;
-use Micro\Multi\Layout\Content;
-use Micro\Multi\Controllers\ModelForm;
-use Micro\Multi\Tree;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Facades\Multi;
+use MicroEcology\Multi\Layout\Content;
+use MicroEcology\Multi\Controllers\ModelForm;
+use MicroEcology\Multi\Tree;
 
 class CategoryController extends Controller
 {

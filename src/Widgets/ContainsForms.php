@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Widgets;
+namespace MicroEcology\Multi\Widgets;
 
 trait ContainsForms
 {
@@ -38,7 +38,7 @@ trait ContainsForms
 
         foreach ($forms as $name => $class) {
             if (!is_subclass_of($class, Form::class)) {
-                multi_error("Class [{$class}] must be a sub-class of [Micro\Multi\Widgets\Form].");
+                multi_error("Class [{$class}] must be a sub-class of [MicroEcology\Multi\Widgets\Form].");
                 continue;
             }
 

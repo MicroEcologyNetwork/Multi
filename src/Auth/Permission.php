@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Auth;
+namespace MicroEcology\Multi\Auth;
 
-use Micro\Multi\Facades\Multi;
-use Micro\Multi\Middleware\Pjax;
+use MicroEcology\Multi\Facades\Multi;
+use MicroEcology\Multi\Middleware\Pjax;
 
 class Permission
 {

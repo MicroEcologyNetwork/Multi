@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
 trait HasElementNames
 {

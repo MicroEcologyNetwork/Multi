@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Actions;
+namespace MicroEcology\Multi\Actions;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

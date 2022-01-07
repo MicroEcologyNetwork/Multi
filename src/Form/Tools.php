@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Form;
+namespace MicroEcology\Multi\Form;
 
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

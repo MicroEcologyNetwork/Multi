@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Micro\Multi\Actions\Action;
+use MicroEcology\Multi\Actions\Action;
 use Illuminate\Http\Request;
 
 class DummyClass extends Action

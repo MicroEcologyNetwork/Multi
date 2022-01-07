@@ -64,7 +64,7 @@
         });
     };
 
-@if($relation == \Micro\Multi\Grid\Displayers\BelongsTo::class)
+@if($relation == \MicroEcology\Multi\Grid\Displayers\BelongsTo::class)
 
     var selected = null;
 

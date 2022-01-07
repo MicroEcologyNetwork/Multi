@@ -1,6 +1,6 @@
 # 基于数据模型的表单
 
-`Micro\Multi\Form`类用于生成基于数据模型的表单，先来个例子，数据库中有`movies`表
+`MicroEcology\Multi\Form`类用于生成基于数据模型的表单，先来个例子，数据库中有`movies`表
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ CREATE TABLE `movies` (
 ```php
 
 use App\Models\Movie;
-use Micro\Multi\Form;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Facades\Multi;
 
 $grid = Multi::form(Movie::class, function(Form $form){
 

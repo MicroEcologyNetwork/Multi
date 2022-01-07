@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 
 class Display extends Field
 {

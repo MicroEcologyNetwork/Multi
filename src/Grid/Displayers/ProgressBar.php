@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
 class ProgressBar extends AbstractDisplayer
 {

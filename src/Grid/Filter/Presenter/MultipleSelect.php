@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter\Presenter;
+namespace MicroEcology\Multi\Grid\Filter\Presenter;
 
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 
 class MultipleSelect extends Select
 {

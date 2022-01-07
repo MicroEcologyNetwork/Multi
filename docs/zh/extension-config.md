@@ -19,7 +19,7 @@ $ php artisan migrate
 
 namespace App\Providers;
 
-use Micro\Multi\Config\Config;
+use MicroEcology\Multi\Config\Config;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

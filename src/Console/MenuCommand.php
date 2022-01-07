@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Console;
+namespace MicroEcology\Multi\Console;
 
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Console\Command;
 
 class MenuCommand extends Command

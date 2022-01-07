@@ -43,7 +43,7 @@ $grid->actions(function ($actions) {
 
 namespace App\Multi\Extensions;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 
 class CheckRow
 {

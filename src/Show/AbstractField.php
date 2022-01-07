@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Show;
+namespace MicroEcology\Multi\Show;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

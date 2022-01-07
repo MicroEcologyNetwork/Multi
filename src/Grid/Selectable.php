@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
-use Micro\Multi\Grid;
-use Micro\Multi\Grid\Selectable\Checkbox;
-use Micro\Multi\Grid\Selectable\Radio;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Grid\Selectable\Checkbox;
+use MicroEcology\Multi\Grid\Selectable\Radio;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 

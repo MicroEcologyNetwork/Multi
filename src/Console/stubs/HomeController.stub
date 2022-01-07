@@ -3,10 +3,10 @@
 namespace DummyNamespace;
 
 use App\Http\Controllers\Controller;
-use Micro\Multi\Controllers\Dashboard;
-use Micro\Multi\Layout\Column;
-use Micro\Multi\Layout\Content;
-use Micro\Multi\Layout\Row;
+use MicroEcology\Multi\Controllers\Dashboard;
+use MicroEcology\Multi\Layout\Column;
+use MicroEcology\Multi\Layout\Content;
+use MicroEcology\Multi\Layout\Row;
 
 class HomeController extends Controller
 {

@@ -9,8 +9,8 @@ First define the tool class `app/Multi/Extensions/Tools/UserGender.php`：
 
 namespace App\Multi\Extensions\Tools;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Grid\Tools\AbstractTool;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid\Tools\AbstractTool;
 use Illuminate\Support\Facades\Request;
 
 class UserGender extends AbstractTool
@@ -98,7 +98,7 @@ First define the tool class `app/Multi/Extensions/Tools/ReleasePost.php`：
 
 namespace App\Multi\Extensions\Tools;
 
-use Micro\Multi\Grid\Tools\BatchAction;
+use MicroEcology\Multi\Grid\Tools\BatchAction;
 
 class ReleasePost extends BatchAction
 {

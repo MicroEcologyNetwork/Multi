@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Actions;
+namespace MicroEcology\Multi\Grid\Actions;
 
-use Micro\Multi\Actions\RowAction;
+use MicroEcology\Multi\Actions\RowAction;
 
 class Edit extends RowAction
 {

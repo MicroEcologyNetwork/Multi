@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter;
+namespace MicroEcology\Multi\Grid\Filter;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 use Illuminate\Support\Arr;
 
 class Between extends AbstractFilter

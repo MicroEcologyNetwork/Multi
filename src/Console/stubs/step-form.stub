@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Micro\Multi\Widgets\StepForm;
+use MicroEcology\Multi\Widgets\StepForm;
 use Illuminate\Http\Request;
 
 class DummyClass extends StepForm

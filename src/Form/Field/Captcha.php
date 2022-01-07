@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 
 class Captcha extends Text
 {

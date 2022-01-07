@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Tools;
+namespace MicroEcology\Multi\Grid\Tools;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Grid;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid;
 use Illuminate\Support\Collection;
 
 class ColumnSelector extends AbstractTool

@@ -1,6 +1,6 @@
 <?php
 
-use Micro\Multi\Auth\Database\Multiistrator;
+use MicroEcology\Multi\Auth\Database\Multiistrator;
 use Tests\Models\User as UserModel;
 
 class UserFormTest extends TestCase

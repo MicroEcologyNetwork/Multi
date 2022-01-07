@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
-use Micro\Multi\Grid;
-use Micro\Multi\Grid\Exporters\CsvExporter;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Grid\Exporters\CsvExporter;
 
 class Exporter
 {

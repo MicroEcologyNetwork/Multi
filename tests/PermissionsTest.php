@@ -1,8 +1,8 @@
 <?php
 
-use Micro\Multi\Auth\Database\Multiistrator;
-use Micro\Multi\Auth\Database\Permission;
-use Micro\Multi\Auth\Database\Role;
+use MicroEcology\Multi\Auth\Database\Multiistrator;
+use MicroEcology\Multi\Auth\Database\Permission;
+use MicroEcology\Multi\Auth\Database\Role;
 
 class PermissionsTest extends TestCase
 {

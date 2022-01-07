@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 
 trait HasHotKeys
 {

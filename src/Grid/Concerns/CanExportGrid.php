@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
-use Micro\Multi\Grid;
-use Micro\Multi\Grid\Exporter;
-use Micro\Multi\Grid\Exporters\AbstractExporter;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Grid\Exporter;
+use MicroEcology\Multi\Grid\Exporters\AbstractExporter;
 
 trait CanExportGrid
 {

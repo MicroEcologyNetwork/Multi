@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Form;
+namespace MicroEcology\Multi\Form;
 
-use Micro\Multi\Form;
+use MicroEcology\Multi\Form;
 use Illuminate\Support\Collection;
 
 class Tab

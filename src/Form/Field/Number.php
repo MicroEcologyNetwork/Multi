@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
 class Number extends Text
 {

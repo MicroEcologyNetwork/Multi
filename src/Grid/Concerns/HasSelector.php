@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
-use Micro\Multi\Grid;
-use Micro\Multi\Grid\Tools\Selector;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Grid\Tools\Selector;
 
 /**
  * @mixin Grid

@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Column;
+namespace MicroEcology\Multi\Grid\Column;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Grid\Model;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid\Model;
 
 class InputFilter extends Filter
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Traits;
+namespace MicroEcology\Multi\Traits;
 
-use Micro\Multi\Tree;
+use MicroEcology\Multi\Tree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;

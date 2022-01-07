@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Actions;
+namespace MicroEcology\Multi\Actions;
 
 use Illuminate\Validation\ValidationException;
 

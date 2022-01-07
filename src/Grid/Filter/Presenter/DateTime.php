@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter\Presenter;
+namespace MicroEcology\Multi\Grid\Filter\Presenter;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 use Illuminate\Support\Arr;
 
 class DateTime extends Presenter

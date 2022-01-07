@@ -1,12 +1,12 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
-use Micro\Multi\Actions\GridAction;
-use Micro\Multi\Grid;
-use Micro\Multi\Grid\Tools\AbstractTool;
-use Micro\Multi\Grid\Tools\BatchActions;
-use Micro\Multi\Grid\Tools\FilterButton;
+use MicroEcology\Multi\Actions\GridAction;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Grid\Tools\AbstractTool;
+use MicroEcology\Multi\Grid\Tools\BatchActions;
+use MicroEcology\Multi\Grid\Tools\FilterButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

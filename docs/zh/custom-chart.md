@@ -6,7 +6,7 @@
 
 然后在`app/Multi/bootstrap.php`引入组件：
 ```php
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 
 Multi::js('/vendor/chartjs/dist/Chart.min.js');
 

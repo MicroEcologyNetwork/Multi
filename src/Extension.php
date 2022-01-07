@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi;
+namespace MicroEcology\Multi;
 
-use Micro\Multi\Auth\Database\Permission;
+use MicroEcology\Multi\Auth\Database\Permission;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;

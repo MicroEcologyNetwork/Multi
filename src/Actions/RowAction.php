@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Actions;
+namespace MicroEcology\Multi\Actions;
 
-use Micro\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Column;
 use Illuminate\Http\Request;
 
 abstract class RowAction extends GridAction

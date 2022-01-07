@@ -1,13 +1,13 @@
 <?php
 
-namespace Micro\Multi;
+namespace MicroEcology\Multi;
 
 use Closure;
-use Micro\Multi\Auth\Database\Menu;
-use Micro\Multi\Controllers\AuthController;
-use Micro\Multi\Layout\Content;
-use Micro\Multi\Traits\HasAssets;
-use Micro\Multi\Widgets\Navbar;
+use MicroEcology\Multi\Auth\Database\Menu;
+use MicroEcology\Multi\Controllers\AuthController;
+use MicroEcology\Multi\Layout\Content;
+use MicroEcology\Multi\Traits\HasAssets;
+use MicroEcology\Multi\Widgets\Navbar;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
@@ -76,7 +76,7 @@ class Multi
      * @param $model
      * @param Closure $callable
      *
-     * @return \Micro\Multi\Grid
+     * @return \MicroEcology\Multi\Grid
      *
      * @deprecated since v1.6.1
      */
@@ -89,7 +89,7 @@ class Multi
      * @param $model
      * @param Closure $callable
      *
-     * @return \Micro\Multi\Form
+     * @return \MicroEcology\Multi\Form
      *
      *  @deprecated since v1.6.1
      */
@@ -104,7 +104,7 @@ class Multi
      * @param $model
      * @param Closure|null $callable
      *
-     * @return \Micro\Multi\Tree
+     * @return \MicroEcology\Multi\Tree
      */
     public function tree($model, Closure $callable = null)
     {
@@ -129,7 +129,7 @@ class Multi
     /**
      * @param Closure $callable
      *
-     * @return \Micro\Multi\Layout\Content
+     * @return \MicroEcology\Multi\Layout\Content
      *
      * @deprecated since v1.6.1
      */
@@ -276,7 +276,7 @@ class Multi
     /**
      * Get navbar object.
      *
-     * @return \Micro\Multi\Widgets\Navbar
+     * @return \MicroEcology\Multi\Widgets\Navbar
      */
     public function getNavbar()
     {
@@ -314,7 +314,7 @@ class Multi
         app('router')->group($attributes, function ($router) {
 
             /* @var \Illuminate\Support\Facades\Route $router */
-            $router->namespace('\Micro\Multi\Controllers')->group(function ($router) {
+            $router->namespace('\MicroEcology\Multi\Controllers')->group(function ($router) {
 
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('auth/users', 'UserController')->names('multi.auth.users');

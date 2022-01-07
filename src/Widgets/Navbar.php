@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Widgets;
+namespace MicroEcology\Multi\Widgets;
 
-use Micro\Multi\Widgets\Navbar\RefreshButton;
+use MicroEcology\Multi\Widgets\Navbar\RefreshButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

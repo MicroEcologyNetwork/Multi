@@ -9,7 +9,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
 
         @if(config('multi.show_version'))
-        <strong>Version</strong>&nbsp;&nbsp; {!! \Micro\Multi\Multi::VERSION !!}
+        <strong>Version</strong>&nbsp;&nbsp; {!! \MicroEcology\Multi\Multi::VERSION !!}
         @endif
 
     </div>

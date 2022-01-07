@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 
 class RadioCard extends RadioButton
 {

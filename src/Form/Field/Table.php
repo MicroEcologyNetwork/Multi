@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
-use Micro\Multi\Form\NestedForm;
-use Micro\Multi\Widgets\Form as WidgetForm;
+use MicroEcology\Multi\Form\NestedForm;
+use MicroEcology\Multi\Widgets\Form as WidgetForm;
 
 class Table extends HasMany
 {

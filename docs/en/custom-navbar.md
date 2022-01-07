@@ -2,9 +2,9 @@
 
 Since version `1.5.6`, you can add the html element to the top navigation bar, open `app/Multi/bootstrap.php`:
 ```php
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 
-Multi::navbar(function (\Micro\Multi\Widgets\Navbar $navbar) {
+Multi::navbar(function (\MicroEcology\Multi\Widgets\Navbar $navbar) {
 
     $navbar->left('html...');
 

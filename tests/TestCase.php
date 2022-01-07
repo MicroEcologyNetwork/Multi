@@ -21,12 +21,12 @@ class TestCase extends BaseTestCase
 
         $app->booting(function () {
             $loader = \Illuminate\Foundation\AliasLoader::getInstance();
-            $loader->alias('Multi', \Micro\Multi\Facades\Multi::class);
+            $loader->alias('Multi', \MicroEcology\Multi\Facades\Multi::class);
         });
 
         $app->make('Illuminate\Contracts\Console\Kernel')->bootstrap();
 
-        $app->register('Micro\Multi\MultiServiceProvider');
+        $app->register('MicroEcology\Multi\MultiServiceProvider');
 
         return $app;
     }
@@ -50,7 +50,7 @@ class TestCase extends BaseTestCase
             $this->app['config']->set($key, $value);
         }
 
-        $this->artisan('vendor:publish', ['--provider' => 'Micro\Multi\MultiServiceProvider']);
+        $this->artisan('vendor:publish', ['--provider' => 'MicroEcology\Multi\MultiServiceProvider']);
 
         Schema::defaultStringLength(191);
 
@@ -66,9 +66,9 @@ class TestCase extends BaseTestCase
 
         require __DIR__.'/seeds/factory.php';
 
-//        \Micro\Multi\Multi::$css = [];
-//        \Micro\Multi\Multi::$js = [];
-//        \Micro\Multi\Multi::$script = [];
+//        \MicroEcology\Multi\Multi::$css = [];
+//        \MicroEcology\Multi\Multi::$js = [];
+//        \MicroEcology\Multi\Multi::$script = [];
     }
 
     protected function tearDown(): void

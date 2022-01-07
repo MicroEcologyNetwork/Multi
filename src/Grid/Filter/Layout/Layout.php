@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter\Layout;
+namespace MicroEcology\Multi\Grid\Filter\Layout;
 
-use Micro\Multi\Grid\Filter;
+use MicroEcology\Multi\Grid\Filter;
 use Illuminate\Support\Collection;
 
 class Layout

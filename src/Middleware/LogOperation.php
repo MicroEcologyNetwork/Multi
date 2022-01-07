@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Middleware;
+namespace MicroEcology\Multi\Middleware;
 
-use Micro\Multi\Auth\Database\OperationLog as OperationLogModel;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Auth\Database\OperationLog as OperationLogModel;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

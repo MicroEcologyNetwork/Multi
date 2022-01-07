@@ -1,11 +1,11 @@
 <?php
 
-namespace Micro\Multi\Grid\Column;
+namespace MicroEcology\Multi\Grid\Column;
 
 use Carbon\Carbon;
-use Micro\Multi\Grid\Column;
-use Micro\Multi\Grid\Displayers;
-use Micro\Multi\Grid\Model;
+use MicroEcology\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Displayers;
+use MicroEcology\Multi\Grid\Model;
 use Illuminate\Support\Arr;
 
 /**

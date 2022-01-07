@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Form\Field;
+namespace MicroEcology\Multi\Form\Field;
 
-use Micro\Multi\Facades\Multi;
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Facades\Multi;
+use MicroEcology\Multi\Form\Field;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;

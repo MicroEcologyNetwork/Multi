@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
-use Micro\Multi\Widgets\Carousel as CarouselWidget;
+use MicroEcology\Multi\Widgets\Carousel as CarouselWidget;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Facades\Storage;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi;
+namespace MicroEcology\Multi;
 
-use Micro\Multi\Layout\Content;
+use MicroEcology\Multi\Layout\Content;
 use Illuminate\Routing\Router;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Blade;
@@ -84,7 +84,7 @@ class MultiServiceProvider extends ServiceProvider
         $this->compatibleBlade();
 
         Blade::directive('box', function ($title) {
-            return "<?php \$box = new \Micro\Multi\Widgets\Box({$title}, '";
+            return "<?php \$box = new \MicroEcology\Multi\Widgets\Box({$title}, '";
         });
 
         Blade::directive('endbox', function ($expression) {

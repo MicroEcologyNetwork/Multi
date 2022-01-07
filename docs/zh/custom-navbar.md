@@ -2,9 +2,9 @@
 
 从版本`1.5.6`开始，可以在顶部导航条上添加html元素了,  打开`app/Multi/bootstrap.php`：
 ```php
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 
-Multi::navbar(function (\Micro\Multi\Widgets\Navbar $navbar) {
+Multi::navbar(function (\MicroEcology\Multi\Widgets\Navbar $navbar) {
 
     $navbar->left('html...');
 

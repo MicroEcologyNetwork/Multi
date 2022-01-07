@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Form\Concerns;
+namespace MicroEcology\Multi\Form\Concerns;
 
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Form\Field;
 
 trait HandleCascadeFields
 {

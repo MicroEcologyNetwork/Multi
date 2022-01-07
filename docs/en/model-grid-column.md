@@ -2,7 +2,7 @@
 
 `model-grid` built-in a lot of the operation of the column, you can use these methods very flexible operation of the column data.
 
-The `Micro\Multi\Grid\Column` object has a built-in `display()` method to handle the value of the current column through the incoming callback function:
+The `MicroEcology\Multi\Grid\Column` object has a built-in `display()` method to handle the value of the current column through the incoming callback function:
 ```php
 $grid->column('title')->display(function ($title) {
 
@@ -163,7 +163,7 @@ There are two ways to extend the column function, the first one is through the a
 
 Add following code to `app/Multi/bootstrap.php`:
 ```php
-use Micro\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Column;
 
 Column::extend('color', function ($value, $color) {
     return "<span style='color: $color'>$value</span>";
@@ -184,8 +184,8 @@ Extension class `app/Multi/Extensions/Popover.php`:
 
 namespace App\Multi\Extensions;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Grid\Displayers\AbstractDisplayer;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid\Displayers\AbstractDisplayer;
 
 class Popover extends AbstractDisplayer
 {
@@ -212,7 +212,7 @@ EOT;
 ```
 And then register the extension in `app/Multi/bootstrap.php`：
 ```php
-use Micro\Multi\Grid\Column;
+use MicroEcology\Multi\Grid\Column;
 use App\Multi\Extensions\Popover;
 
 Column::extend('popover', Popover::class);

@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
-use Micro\Multi\Multi;
-use Micro\Multi\Grid\Simple;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Grid\Simple;
 use Illuminate\Contracts\Support\Renderable;
 
 class Modal extends AbstractDisplayer

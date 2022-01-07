@@ -1,12 +1,12 @@
 <?php
 
-namespace Micro\Multi\Controllers;
+namespace MicroEcology\Multi\Controllers;
 
-use Micro\Multi\Actions\Action;
-use Micro\Multi\Actions\GridAction;
-use Micro\Multi\Actions\Response;
-use Micro\Multi\Actions\RowAction;
-use Micro\Multi\Widgets\Form;
+use MicroEcology\Multi\Actions\Action;
+use MicroEcology\Multi\Actions\GridAction;
+use MicroEcology\Multi\Actions\Response;
+use MicroEcology\Multi\Actions\RowAction;
+use MicroEcology\Multi\Widgets\Form;
 use Exception;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -158,7 +158,7 @@ class HandleController extends Controller
         $class = str_replace('_', '\\', $class);
 
         if (class_exists($class)) {
-            /** @var \Micro\Multi\Grid\Selectable $selectable */
+            /** @var \MicroEcology\Multi\Grid\Selectable $selectable */
             $selectable = new $class(...array_values($args));
 
             return $selectable->render();

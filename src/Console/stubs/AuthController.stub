@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Micro\Multi\Controllers\AuthController as BaseAuthController;
+use MicroEcology\Multi\Controllers\AuthController as BaseAuthController;
 
 class AuthController extends BaseAuthController
 {

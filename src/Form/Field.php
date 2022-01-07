@@ -1,11 +1,11 @@
 <?php
 
-namespace Micro\Multi\Form;
+namespace MicroEcology\Multi\Form;
 
 use Closure;
-use Micro\Multi\Multi;
-use Micro\Multi\Form;
-use Micro\Multi\Widgets\Form as WidgetForm;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Widgets\Form as WidgetForm;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
@@ -1522,7 +1522,7 @@ class Field implements Renderable
     /**
      * @param \Closure $callback
      *
-     * @return \Micro\Multi\Form\Field
+     * @return \MicroEcology\Multi\Form\Field
      */
     public function with(Closure $callback): self
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Column;
+namespace MicroEcology\Multi\Grid\Column;
 
 use Illuminate\Contracts\Support\Renderable;
 

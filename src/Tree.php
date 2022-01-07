@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi;
+namespace MicroEcology\Multi;
 
 use Closure;
-use Micro\Multi\Tree\Tools;
+use MicroEcology\Multi\Tree\Tools;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
 

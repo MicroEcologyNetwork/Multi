@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Selectable;
+namespace MicroEcology\Multi\Grid\Selectable;
 
 use Illuminate\Contracts\Support\Renderable;
 

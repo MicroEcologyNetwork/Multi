@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Widgets;
+namespace MicroEcology\Multi\Widgets;
 
 use Illuminate\Contracts\Support\Renderable;
 

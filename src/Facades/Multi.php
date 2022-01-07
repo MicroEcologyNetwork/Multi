@@ -1,17 +1,17 @@
 <?php
 
-namespace Micro\Multi\Facades;
+namespace MicroEcology\Multi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class Multi.
  *
- * @method static \Micro\Multi\Grid grid($model, \Closure $callable)
- * @method static \Micro\Multi\Form form($model, \Closure $callable)
- * @method static \Micro\Multi\Show show($model, $callable = null)
- * @method static \Micro\Multi\Tree tree($model, \Closure $callable = null)
- * @method static \Micro\Multi\Layout\Content content(\Closure $callable = null)
+ * @method static \MicroEcology\Multi\Grid grid($model, \Closure $callable)
+ * @method static \MicroEcology\Multi\Form form($model, \Closure $callable)
+ * @method static \MicroEcology\Multi\Show show($model, $callable = null)
+ * @method static \MicroEcology\Multi\Tree tree($model, \Closure $callable = null)
+ * @method static \MicroEcology\Multi\Layout\Content content(\Closure $callable = null)
  * @method static \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void css($css = null)
  * @method static \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void js($js = null)
  * @method static \Illuminate\Contracts\View\Factory|\Illuminate\View\View|void headerJs($js = null)
@@ -29,12 +29,12 @@ use Illuminate\Support\Facades\Facade;
  * @method static void bootstrap()
  * @method static void routes()
  *
- * @see \Micro\Multi\Multi
+ * @see \MicroEcology\Multi\Multi
  */
 class Multi extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \Micro\Multi\Multi::class;
+        return \MicroEcology\Multi\Multi::class;
     }
 }

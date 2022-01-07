@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Controllers;
+namespace MicroEcology\Multi\Controllers;
 
-use Micro\Multi\Form;
-use Micro\Multi\Grid;
-use Micro\Multi\Show;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Show;
 use Illuminate\Support\Str;
 
 class PermissionController extends MultiController

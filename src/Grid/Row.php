@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid;
+namespace MicroEcology\Multi\Grid;
 
 use Closure;
 use Illuminate\Contracts\Support\Htmlable;

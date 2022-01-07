@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Widgets;
+namespace MicroEcology\Multi\Widgets;
 
 use Illuminate\Contracts\Support\Renderable;
 
@@ -70,7 +70,7 @@ class MultipleSteps implements Renderable
         $class = $this->steps[$this->current];
 
         if (!is_subclass_of($class, StepForm::class)) {
-            multi_error("Class [{$class}] must be a sub-class of [Micro\Multi\Widgets\StepForm].");
+            multi_error("Class [{$class}] must be a sub-class of [MicroEcology\Multi\Widgets\StepForm].");
 
             return;
         }

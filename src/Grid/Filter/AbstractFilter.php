@@ -1,15 +1,15 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter;
+namespace MicroEcology\Multi\Grid\Filter;
 
-use Micro\Multi\Grid\Filter;
-use Micro\Multi\Grid\Filter\Presenter\Checkbox;
-use Micro\Multi\Grid\Filter\Presenter\DateTime;
-use Micro\Multi\Grid\Filter\Presenter\MultipleSelect;
-use Micro\Multi\Grid\Filter\Presenter\Presenter;
-use Micro\Multi\Grid\Filter\Presenter\Radio;
-use Micro\Multi\Grid\Filter\Presenter\Select;
-use Micro\Multi\Grid\Filter\Presenter\Text;
+use MicroEcology\Multi\Grid\Filter;
+use MicroEcology\Multi\Grid\Filter\Presenter\Checkbox;
+use MicroEcology\Multi\Grid\Filter\Presenter\DateTime;
+use MicroEcology\Multi\Grid\Filter\Presenter\MultipleSelect;
+use MicroEcology\Multi\Grid\Filter\Presenter\Presenter;
+use MicroEcology\Multi\Grid\Filter\Presenter\Radio;
+use MicroEcology\Multi\Grid\Filter\Presenter\Select;
+use MicroEcology\Multi\Grid\Filter\Presenter\Text;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

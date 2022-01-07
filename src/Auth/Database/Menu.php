@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Auth\Database;
+namespace MicroEcology\Multi\Auth\Database;
 
-use Micro\Multi\Traits\DefaultDatetimeFormat;
-use Micro\Multi\Traits\ModelTree;
+use MicroEcology\Multi\Traits\DefaultDatetimeFormat;
+use MicroEcology\Multi\Traits\ModelTree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Support\Facades\DB;

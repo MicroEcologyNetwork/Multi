@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Tree;
+namespace MicroEcology\Multi\Tree;
 
-use Micro\Multi\Tree;
+use MicroEcology\Multi\Tree;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

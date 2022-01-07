@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Controllers;
+namespace MicroEcology\Multi\Controllers;
 
-use Micro\Multi\Auth\Database\OperationLog;
-use Micro\Multi\Grid;
+use MicroEcology\Multi\Auth\Database\OperationLog;
+use MicroEcology\Multi\Grid;
 use Illuminate\Support\Arr;
 
 class LogController extends MultiController

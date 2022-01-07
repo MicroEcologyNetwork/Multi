@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Controllers;
+namespace MicroEcology\Multi\Controllers;
 
-use Micro\Multi\Facades\Multi;
-use Micro\Multi\Form;
-use Micro\Multi\Layout\Content;
+use MicroEcology\Multi\Facades\Multi;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;

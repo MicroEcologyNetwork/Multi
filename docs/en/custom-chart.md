@@ -6,7 +6,7 @@ Use `chartjs` for example, first download [chartjs](http://chartjs.org/), put it
 
 Then import the component in `app/Multi/bootstrap.php`:
 ```php
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 
 Multi::js('/vendor/chartjs/dist/Chart.min.js');
 

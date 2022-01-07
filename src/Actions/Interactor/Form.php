@@ -1,10 +1,10 @@
 <?php
 
-namespace Micro\Multi\Actions\Interactor;
+namespace MicroEcology\Multi\Actions\Interactor;
 
-use Micro\Multi\Actions\RowAction;
-use Micro\Multi\Multi;
-use Micro\Multi\Form\Field;
+use MicroEcology\Multi\Actions\RowAction;
+use MicroEcology\Multi\Multi;
+use MicroEcology\Multi\Form\Field;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;

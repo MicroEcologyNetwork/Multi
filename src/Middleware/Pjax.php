@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Middleware;
+namespace MicroEcology\Multi\Middleware;
 
 use Closure;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Symfony\Component\DomCrawler\Crawler;

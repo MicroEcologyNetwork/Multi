@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Layout;
+namespace MicroEcology\Multi\Layout;
 
 use Closure;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Facades\Multi;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;
 

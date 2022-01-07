@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
 use Closure;
-use Micro\Multi\Grid\Filter;
+use MicroEcology\Multi\Grid\Filter;
 use Illuminate\Support\Collection;
 
 trait HasFilter
@@ -11,7 +11,7 @@ trait HasFilter
     /**
      * The grid Filter.
      *
-     * @var \Micro\Multi\Grid\Filter
+     * @var \MicroEcology\Multi\Grid\Filter
      */
     protected $filter;
 

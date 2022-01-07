@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Concerns;
+namespace MicroEcology\Multi\Grid\Concerns;
 
-use Micro\Multi\Grid\Tools\QuickCreate;
+use MicroEcology\Multi\Grid\Tools\QuickCreate;
 
 trait HasQuickCreate
 {

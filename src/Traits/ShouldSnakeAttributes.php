@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Traits;
+namespace MicroEcology\Multi\Traits;
 
-use Micro\Multi\Grid\Model as GridModel;
+use MicroEcology\Multi\Grid\Model as GridModel;
 
 trait ShouldSnakeAttributes
 {

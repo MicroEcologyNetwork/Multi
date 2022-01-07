@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Grid\Selectable;
+namespace MicroEcology\Multi\Grid\Selectable;
 
-use Micro\Multi\Grid\Displayers\AbstractDisplayer;
+use MicroEcology\Multi\Grid\Displayers\AbstractDisplayer;
 
 class Checkbox extends AbstractDisplayer
 {

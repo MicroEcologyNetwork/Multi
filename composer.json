@@ -2,7 +2,7 @@
     "name": "micro/multi",
     "autoload": {
         "psr-4": {
-            "Micro\\Multi\\": "src/"
+            "MicroEcology\\Multi\\": "src/"
         }
     },
     "authors": [
@@ -15,10 +15,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Micro\\Multi\\MultiServiceProvider"
+                "MicroEcology\\Multi\\MultiServiceProvider"
             ],
             "aliases": {
-                "Multi": "Micro\\Multi\\Facades\\Multi"
+                "Multi": "MicroEcology\\Multi\\Facades\\Multi"
             }
         }
     }

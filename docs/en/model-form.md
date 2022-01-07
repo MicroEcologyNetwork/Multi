@@ -1,6 +1,6 @@
 # Model-Form
 
-The `Micro\Multi\Form` class is used to generate a data model-based form. For example, there is a` movies` table in the database
+The `MicroEcology\Multi\Form` class is used to generate a data model-based form. For example, there is a` movies` table in the database
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ The corresponding data model is `App\Models\Movie`, and the following code can g
 ```php
 
 use App\Models\Movie;
-use Micro\Multi\Form;
-use Micro\Multi\Facades\Multi;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Facades\Multi;
 
 $grid = Multi::form(Movie::class, function(Form $grid){
 

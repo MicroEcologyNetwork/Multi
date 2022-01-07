@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Console;
+namespace MicroEcology\Multi\Console;
 
 class ControllerCommand extends MakeCommand
 {

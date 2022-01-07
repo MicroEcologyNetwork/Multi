@@ -2,10 +2,10 @@
 
 namespace DummyNamespace;
 
-use Micro\Multi\Controllers\MultiController;
-use Micro\Multi\Form;
-use Micro\Multi\Grid;
-use Micro\Multi\Show;
+use MicroEcology\Multi\Controllers\MultiController;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Show;
 
 class ExampleController extends MultiController
 {

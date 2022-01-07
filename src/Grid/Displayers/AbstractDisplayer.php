@@ -1,9 +1,9 @@
 <?php
 
-namespace Micro\Multi\Grid\Displayers;
+namespace MicroEcology\Multi\Grid\Displayers;
 
-use Micro\Multi\Grid;
-use Micro\Multi\Grid\Column;
+use MicroEcology\Multi\Grid;
+use MicroEcology\Multi\Grid\Column;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class AbstractDisplayer

@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Middleware;
+namespace MicroEcology\Multi\Middleware;
 
 use Illuminate\Http\Request;
 

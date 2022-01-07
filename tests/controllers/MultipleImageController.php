@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use Micro\Multi\Controllers\MultiController;
-use Micro\Multi\Form;
-use Micro\Multi\Grid;
+use MicroEcology\Multi\Controllers\MultiController;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Grid;
 use Tests\Models\MultipleImage;
 
 class MultipleImageController extends MultiController

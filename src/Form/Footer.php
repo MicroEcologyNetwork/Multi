@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Form;
+namespace MicroEcology\Multi\Form;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 use Illuminate\Contracts\Support\Renderable;
 
 class Footer implements Renderable

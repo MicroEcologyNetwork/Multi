@@ -1,13 +1,13 @@
 <?php
 
-namespace Micro\Multi\Controllers;
+namespace MicroEcology\Multi\Controllers;
 
-use Micro\Multi\Form;
-use Micro\Multi\Layout\Column;
-use Micro\Multi\Layout\Content;
-use Micro\Multi\Layout\Row;
-use Micro\Multi\Tree;
-use Micro\Multi\Widgets\Box;
+use MicroEcology\Multi\Form;
+use MicroEcology\Multi\Layout\Column;
+use MicroEcology\Multi\Layout\Content;
+use MicroEcology\Multi\Layout\Row;
+use MicroEcology\Multi\Tree;
+use MicroEcology\Multi\Widgets\Box;
 use Illuminate\Routing\Controller;
 
 class MenuController extends Controller
@@ -30,7 +30,7 @@ class MenuController extends Controller
                 $row->column(6, $this->treeView()->render());
 
                 $row->column(6, function (Column $column) {
-                    $form = new \Micro\Multi\Widgets\Form();
+                    $form = new \MicroEcology\Multi\Widgets\Form();
                     $form->action(multi_url('auth/menu'));
 
                     $menuModel = config('multi.database.menu_model');
@@ -65,7 +65,7 @@ class MenuController extends Controller
     }
 
     /**
-     * @return \Micro\Multi\Tree
+     * @return \MicroEcology\Multi\Tree
      */
     protected function treeView()
     {

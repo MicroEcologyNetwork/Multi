@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Grid\Filter;
+namespace MicroEcology\Multi\Grid\Filter;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

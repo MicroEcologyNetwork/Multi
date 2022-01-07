@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Widgets\Navbar;
+namespace MicroEcology\Multi\Widgets\Navbar;
 
-use Micro\Multi\Multi;
+use MicroEcology\Multi\Multi;
 use Illuminate\Contracts\Support\Renderable;
 
 class RefreshButton implements Renderable

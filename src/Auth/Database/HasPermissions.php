@@ -1,6 +1,6 @@
 <?php
 
-namespace Micro\Multi\Auth\Database;
+namespace MicroEcology\Multi\Auth\Database;
 
 use Illuminate\Support\Collection;
 

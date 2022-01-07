@@ -1,8 +1,8 @@
 <?php
 
-namespace Micro\Multi\Layout;
+namespace MicroEcology\Multi\Layout;
 
-use Micro\Multi\Grid;
+use MicroEcology\Multi\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 class Column implements Buildable

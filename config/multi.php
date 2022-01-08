@@ -58,7 +58,7 @@ return [
     */
     'route' => [
 
-        'prefix' => env('ADMIN_ROUTE_PREFIX', 'multi'),
+        'prefix' => env('MULTI_ROUTE_PREFIX', 'multi'),
 
         'namespace' => 'App\\Multi\\Controllers',
 
@@ -95,7 +95,7 @@ return [
     | If your page is going to be accessed via https, set it to `true`.
     |
     */
-    'https' => env('ADMIN_HTTPS', false),
+    'https' => env('MULTI_HTTPS', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -223,7 +223,7 @@ return [
          * or specific method to path like: get:multi/auth/logs.
          */
         'except' => [
-            env('ADMIN_ROUTE_PREFIX', 'multi').'/auth/logs*',
+            env('MULTI_ROUTE_PREFIX', 'multi').'/auth/logs*',
         ],
     ],
 
@@ -275,7 +275,7 @@ return [
     |    "skin-red", "skin-red-light", "skin-black", "skin-black-light".
     |
     */
-    'skin' => env('ADMIN_SKIN', 'skin-blue-light'),
+    'skin' => env('MULTI_SKIN', 'skin-blue-light'),
 
     /*
     |--------------------------------------------------------------------------

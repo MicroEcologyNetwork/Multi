@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Multi\\": "src/"
+            "MicroEcology\\Multi\\": "src/"
         },
         "files": [
             "src/helpers.php"

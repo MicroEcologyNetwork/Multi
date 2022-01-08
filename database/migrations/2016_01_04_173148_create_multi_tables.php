@@ -35,6 +35,8 @@ class CreateMultiTables extends Migration
 
         Schema::create(config('multi.database.roles_table'), function (Blueprint $table) {
             $table->increments('id');
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->string('name', 50)->unique();
             $table->string('slug', 50)->unique();
             $table->timestamps();
@@ -42,6 +44,8 @@ class CreateMultiTables extends Migration
 
         Schema::create(config('multi.database.permissions_table'), function (Blueprint $table) {
             $table->increments('id');
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->string('name', 50)->unique();
             $table->string('slug', 50)->unique();
             $table->string('http_method')->nullable();
@@ -51,6 +55,8 @@ class CreateMultiTables extends Migration
 
         Schema::create(config('multi.database.menu_table'), function (Blueprint $table) {
             $table->increments('id');
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->integer('parent_id')->default(0);
             $table->integer('order')->default(0);
             $table->string('title', 50);
@@ -62,6 +68,8 @@ class CreateMultiTables extends Migration
         });
 
         Schema::create(config('multi.database.role_users_table'), function (Blueprint $table) {
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->integer('role_id');
             $table->integer('user_id');
             $table->index(['role_id', 'user_id']);
@@ -69,6 +77,8 @@ class CreateMultiTables extends Migration
         });
 
         Schema::create(config('multi.database.role_permissions_table'), function (Blueprint $table) {
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->integer('role_id');
             $table->integer('permission_id');
             $table->index(['role_id', 'permission_id']);
@@ -76,6 +86,8 @@ class CreateMultiTables extends Migration
         });
 
         Schema::create(config('multi.database.user_permissions_table'), function (Blueprint $table) {
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->integer('user_id');
             $table->integer('permission_id');
             $table->index(['user_id', 'permission_id']);
@@ -83,6 +95,8 @@ class CreateMultiTables extends Migration
         });
 
         Schema::create(config('multi.database.role_menu_table'), function (Blueprint $table) {
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->integer('role_id');
             $table->integer('menu_id');
             $table->index(['role_id', 'menu_id']);
@@ -90,6 +104,8 @@ class CreateMultiTables extends Migration
         });
 
         Schema::create(config('multi.database.operation_log_table'), function (Blueprint $table) {
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->increments('id');
             $table->integer('user_id');
             $table->string('path');

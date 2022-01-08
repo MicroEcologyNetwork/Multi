@@ -23,6 +23,8 @@ class CreateMultiTables extends Migration
     {
         Schema::create(config('multi.database.users_table'), function (Blueprint $table) {
             $table->increments('id');
+            $table->integer(config('multi.multi-limit.region'))->default(0);
+            $table->integer(config('multi.multi-limit.single'))->default(0);
             $table->string('username', 190)->unique();
             $table->string('password', 60);
             $table->string('name');

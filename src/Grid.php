@@ -175,6 +175,16 @@ class Grid
     public function __construct(Eloquent $model, Closure $builder = null)
     {
         $this->model = new Model($model, $this);
+
+        if(config('multi.multi-limit.is_on')){
+            if(config('multi.multi-limit.is_multi') && Multi::user()->$region > 0){
+                $this->model->where($region, Multi::user()->$region);
+            }else{
+                $this->model->where($single, Multi::user()->$single);
+            }
+        }
+
+
         $this->keyName = $model->getKeyName();
         $this->builder = $builder;
 

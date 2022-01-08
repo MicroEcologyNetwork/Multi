@@ -86,6 +86,16 @@ class Show implements Renderable
     public function __construct($model, $builder = null)
     {
         $this->model = $model;
+
+        if(config('multi.multi-limit.is_on')){
+            if(config('multi.multi-limit.is_multi') && Multi::user()->$region > 0){
+                $this->model->where($region, Multi::user()->$region);
+            }else{
+                $this->model->where($single, Multi::user()->$single);
+            }
+        }
+
+
         $this->builder = $builder;
 
         $this->initPanel();

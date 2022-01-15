@@ -320,7 +320,9 @@ class Multi
                 $router->resource('auth/users', 'UserController')->names('multi.auth.users');
                 $router->resource('auth/roles', 'RoleController')->names('multi.auth.roles');
                 $router->resource('auth/permissions', 'PermissionController')->names('multi.auth.permissions');
-                $router->resource('auth/menu', 'MenuController', ['except' => ['create']])->names('multi.auth.menu');
+                if(config('multi.multi_limit.menu_module')){
+                    $router->resource('auth/menu', 'MenuController', ['except' => ['create']])->names('multi.auth.menu');
+                }
                 $router->resource('auth/logs', 'LogController', ['only' => ['index', 'destroy']])->names('multi.auth.logs');
 
                 $router->post('_handle_form_', 'HandleController@handleForm')->name('multi.handle-form');

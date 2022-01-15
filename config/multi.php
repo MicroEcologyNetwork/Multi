@@ -60,11 +60,14 @@ return [
     |
     |
     */
-    'multi-limit' => [
+    'multi_limit' => [
         'is_on'  => true,
         'is_multi' => true,
         'region' => 'region_id',
         'single' => 'store_id',
+
+        //分店菜单管理模块 false为关闭
+        'menu_module' => false,
     ],
 
     /*

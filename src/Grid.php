@@ -176,12 +176,12 @@ class Grid
     {
         $this->model = new Model($model, $this);
 
-        if(config('multi.multi-limit.is_on')){
-            $region = config('multi.multi-limit.region');
-            if(config('multi.multi-limit.is_multi') && \MicroEcology\Multi\Facades\Multi::user()->$region > 0){
+        if(config('multi.multi_limit.is_on')){
+            $region = config('multi.multi_limit.region');
+            if(config('multi.multi_limit.is_multi') && \MicroEcology\Multi\Facades\Multi::user()->$region > 0){
                 $this->model->where($region, \MicroEcology\Multi\Facades\Multi::user()->$region);
             }else{
-                $single = config('multi.multi-limit.single');
+                $single = config('multi.multi_limit.single');
                 $this->model->where($single, \MicroEcology\Multi\Facades\Multi::user()->$single);
             }
         }

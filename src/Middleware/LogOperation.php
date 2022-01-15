@@ -20,8 +20,8 @@ class LogOperation
     public function handle(Request $request, \Closure $next)
     {
         if ($this->shouldLogOperation($request)) {
-            $region = config('multi.multi-limit.region');
-            $single = config('multi.multi-limit.single');
+            $region = config('multi.multi_limit.region');
+            $single = config('multi.multi_limit.single');
             $log = [
                 $region => Multi::user()->$region,
                 $single => Multi::user()->$single,

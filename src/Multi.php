@@ -318,9 +318,9 @@ class Multi
 
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('auth/users', 'UserController')->names('multi.auth.users');
-                $router->resource('auth/roles', 'RoleController')->names('multi.auth.roles');
-                $router->resource('auth/permissions', 'PermissionController')->names('multi.auth.permissions');
                 if(config('multi.multi_limit.menu_module')){
+                    $router->resource('auth/roles', 'RoleController')->names('multi.auth.roles');
+                    $router->resource('auth/permissions', 'PermissionController')->names('multi.auth.permissions');
                     $router->resource('auth/menu', 'MenuController', ['except' => ['create']])->names('multi.auth.menu');
                 }
                 $router->resource('auth/logs', 'LogController', ['only' => ['index', 'destroy']])->names('multi.auth.logs');
@@ -339,6 +339,8 @@ class Multi
             $router->get('auth/logout', $authController.'@getLogout')->name('multi.logout');
             $router->get('auth/setting', $authController.'@getSetting')->name('multi.setting');
             $router->put('auth/setting', $authController.'@putSetting');
+            $router->get('auth/register', $authController.'@getRegister')->name('multi.register');
+            $router->post('auth/register', $authController.'@postRegister');
         });
     }
 

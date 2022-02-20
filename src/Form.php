@@ -125,20 +125,16 @@ class Form implements Renderable
     {
         $this->model = $model;
 
-
-        if(config('multi.multi_limit.is_on')){
-            $region = config('multi.multi_limit.region');
-            if(config('multi.multi_limit.is_multi') && \MicroEcology\Multi\Facades\Multi::user()->$region > 0){
-                $this->model->where($region, \MicroEcology\Multi\Facades\Multi::user()->$region);
-            }else{
-                $single = config('multi.multi_limit.single');
-                $this->model->where($single, \MicroEcology\Multi\Facades\Multi::user()->$single);
-            }
-        }
-
         $this->builder = new Builder($this);
 
         $this->initLayout();
+
+        if(config('multi.multi_limit.is_on')){
+            $region = config('multi.multi_limit.region');
+            $single = config('multi.multi_limit.single');
+            $this->hidden($region)->default((int) \MicroEcology\Multi\Facades\Multi::user()->$region);
+            $this->hidden($single)->default((int) \MicroEcology\Multi\Facades\Multi::user()->$single);
+        }
 
         if ($callback instanceof Closure) {
             $callback($this);

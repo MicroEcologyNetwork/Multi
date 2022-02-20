@@ -99,4 +99,17 @@ class MultiController extends Controller
             ->description($this->description['create'] ?? trans('multi.create'))
             ->body($this->form());
     }
+
+
+    public function getMultiRegionId(){
+        $region = config('multi.multi_limit.region');
+        return (int) \MicroEcology\Multi\Facades\Multi::user()->$region;
+    }
+
+
+    public function getMultiSingleId(){
+        $single = config('multi.multi_limit.single');
+        return (int) \MicroEcology\Multi\Facades\Multi::user()->$single;
+    }
+
 }
